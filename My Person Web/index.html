@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kiruuu's Personal website</title>
+
+    <script src="https://kit.fontawesome.com/eea99ec222.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="hero" >
+   <nav>
+       <img src="logo.jpg" alt="" class="logo">
+       <ul>    
+            <li><a href="">HOME</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+            <li><a href="#interests">INTEREST</a></li>
+    
+        </ul>
+        
+   </nav>
+   <div class="detel">
+        <h1>Hello! My name is <span>Quiruben P. Militares</span></h1>
+        <h1>From BSIT 2nd year</h1>
+        <p>This is my personal website. 
+          <br>You can see here my Interest and skills.
+          <br>Hope we can get along!
+        </p>
+        <a href="#about">See more..</a>
+   </div>
+   <div class="image">
+       <img src="myimagepreview.png" class="boy">
+    </div>
+     </div> 
+
+   <!--------about me------->
+  <div id="about">
+      <div clas="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="kiru.jpg" alt=""> 
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle-one">About Me</h1>
+            <p>My name is <span>Quiruben P. Militares</span>, and I am a second-year college student at the Davao Central College of Toril and My Course is BSIT.
+            </p>
+            <div class="tab-titles">
+              <p class="tablinks activelink" onclick="opentab('Skills')">Skills</p>
+              <p class="tablinks" onclick="opentab('education')">Education</p>
+              <p class="tablinks" onclick="opentab('socials')">Contact me</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Instrument</span> <br>Drum</li>
+                <li><span>Web Development</span> <br>HTML, CSS, and JavaScript</li>
+                <li><span>Graphic Design</span> <br>Canva and Photoshop</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>Primary School</span><br>Baliok Elemtentary School</li>
+                <li><span>Secondary School</span><br>Don Enrique Bustamante National High School</li>
+                <li><span>Senior High School</span><br>Brokenshire College of Toril</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="socials">
+              <ul>
+                <div class="socials">
+                  <p class="contactme">Contact me!</p>
+                  <p><i class="fa-solid fa-envelope"></i>qmilitares@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i>0936-236-5820</p>
+                  <div class="social-icon">
+                    <a href="https://www.facebook.com/quiruben.militares.5"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                  </div>
+                  </div> 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+<!-----Interest------>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests and Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #918c9b;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #interests {
+            background-color: #7d91bd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        h1, h2 {
+            color: #333;  
+        }
+
+        .interest {
+            flex-basis: calc(33.33% - 20px);
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body>
+  <h1 class="subtitle-one">Interest</h1>
+    <div class="container">
+        <div id="interests">
+            <div class="interest">
+                <img src="basketball.jfif" alt="Basketball">
+                <h2>Sports</h2>
+                <p>Playing basketball</p>
+            </div>
+
+            <div class="interest">
+                <img src="Music.jpg" alt="Music">
+                <h2>Music</h2>
+                <p>Play Instrument like Drum</p>
+            </div>
+
+            <div class="interest">
+                <img src="techie.jfif" alt="Food Adventures">
+                <h2>Techie</h2>
+                <p>I like gadgets or fix things about technology.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!-----Footer------>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Webpage Title</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .social-media a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+
+        .additional-details p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="social-media">
+            <a href="" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.facebook.com/quiruben.militares.5" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+
+        </div>
+
+        <p>&copy; 2024 Kiruuu's Personal Website. All rights reserved.</p>
+
+        <div class="additional-details">
+            <p>Contact: qmilitares@gmail.com</p>
+            <p>Address: Baliok, Davao City, Philippines</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<script>
+  var tablinks = document.getElementsByClassName("tablinks");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+
+    for(tablink of tablinks){
+    tablink.classList.remove("activelink");
+  }
+
+   for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("activelink");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
